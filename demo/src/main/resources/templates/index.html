@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> QGRS Msg</title>
+    <!--设置ico图标-->
+    <link rel="icon" href="images/gene.ico">
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="js/jquery.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">QGRS Mapper</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Analyse
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="analyze.html">GeneID</a></li>
+
+                        <li class="divider"></li>
+                        <li><a href="#">分离的链接</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Another</a></li>
+                    </ul>
+                </li>
+                <li><a href="background.html">Background</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="#">Credits</a></li>
+
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron">
+    <div class="container-fluid">
+
+        <div class="col-md-12">
+            QGRS Mapper is a software program that generates information on composition and distribution of putative Quadruplex forming G-Rich Sequences (QGRS) in nucleotide sequences. It is also designed to handle the analysis of mammalian pre-mRNA sequences, including that are alternatively processed (alternatively spliced or alternatively polyadenylated). QGRS Mapper is based on published algorithms for recognition and mapping of putative QGRS.
+
+            <br><br>There has been a tremendous amount of interest in studying quadruplex forming G-rich sequences in the mammalian genomes. This is evident from a surge in the published literature. The QGRS Mapper program maps QGRS in the entire nucleotide sequence provided in the raw or FASTA format by the user. It can be used for the analysis of genomic sequences, e.g. promoter and telomeric regions, as well as RNA sequences. Furthermore, QGRS Mapper is a unique tool for mapping G-quadruplex forming sequences in the context of RNA processing sites. In addition to providing data on composition and locations of QGRS relative to the processing sites in the pre-mRNA sequence, QGRS Mapper features visual comparison of QGRS distribution patterns among all the alternative RNA products of a gene with the help of dynamically generated graphics.
+
+            <br><br>QGRS Mapper can retrieve nucleotide sequence information from fully annotated entries of public genomic databases (GenBank/RefSeq), search transcribed regions of the genes for occurrences of Quadruplex forming G-Rich Sequences (QGRS) and analyze their distribution patterns near RNA processing sites. Alternatively, the user can provide a Gene Name, Gene Symbol or Entrez Gene ID to retrieve the nucleotide sequence from the transcribed region of the appropriate gene for analysis.
+
+            <br><br>
+            <a href="background.html"> Read more for background of this project</a>
+            <br><br>
+
+            <b>Please Cite:</b><br>
+            QGRS Mapper: a web-based server for predicting G-quadruplexes in nucleotide sequences Oleg Kikin, Lawrence D'Antonio and Paramjeet S Bagga. Nucleic Acids Research 2006 July; 34 (Web Server issue):W676-W682.
+        </div>
+
+
+
+        <div class="col-md-12">
+            <br>
+            <a class="btn btn-primary btn-lg col-md-offset-5" role="button" href="analyze.html">
+            Analyze Your Gene/Sequence
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>

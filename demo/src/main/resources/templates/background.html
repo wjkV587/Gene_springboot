@@ -1,0 +1,172 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> QGRS Msg</title>
+    <!--设置ico图标-->
+    <link rel="icon" href="images/gene.ico">
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="js/jquery.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">QGRS Mapper</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav pull-right">
+                <li ><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Analyse
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="analyze.html">GeneID</a></li>
+
+                        <li class="divider"></li>
+                        <li><a href="#">分离的链接</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Another</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="background.html">Background</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="#">Credits</a></li>
+
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron">
+    <div class="container-fluid">
+
+        <div class="col-md-12">
+            <h2 class="pull-left">Background</h2>
+
+        </div>
+        <div class="col-md-12">
+            The ability of G-rich single stranded nucleic acid molecules to form three-dimensional quadruplex structures is well documented (1,2,3) . The G-quadruplex structure, also known as G-quartet, is composed of stacked G-tetrads, which are square co-planar arrays of four guanine bases each. These interesting structures may be formed by repeated folding of a single nucleic acid molecule or by interaction of two or four strands and are generally very stable due to cyclic Hoogsteen hydrogen bonding between the four guanines within each tetrad.
+            <br><br>
+        </div>
+
+
+
+        <div class="col-md-12">
+        <div class="col-md-10">
+            Naturally occurring G-quadruplex sequence motifs have been reported in telomeric, promoters and other regions of mammalian genomes. �G� rich sequences (GRS) capable of forming G-quadruplexes, have also been implicated in a variety of biological activities such as: mRNA stability (3), transcription pausing (4) , FMRP binding (5) , translation initiation (6) as well as repression (7).
+        </div>
+        <div class="col-md-2">
+            <img src="images/bk1.jpg">
+
+        </div>
+        </div>
+
+        <div class="col-md-12 col-xs-12">
+            We have previously shown that a conserved �G� rich sequence found in the polyadenylation regions of human genes can mediate efficient 3�end processing of mammalian pre-mRNAs (8,9) , by interacting with DSEF1/hnRNP H� protein (10) .
+        </div>
+
+        <div class="col-md-12">
+            <br>
+            <div class="col-md-3">
+                <img src="images/bk2.jpg">
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                Formation of Cleavage-Polyadenylation complex on mammalian pre-mRNA undergoing 3' end RNA processing
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <br>
+            Our preliminary analysis has also revealed the presence of G-rich quadruplex forming sequences near splice junctions of several human transcripts (11) . Members of the hnRNP H protein subfamily, that bind �G� rich motifs, are known to be involved in alternative and tissue specific regulated splicing events (12,13,14) . We believe that G-quadruplexes play a role in modulating the differential RNA processing events by interacting with hnRNP H subfamily of RNA binding proteins.
+
+            <br><br>
+            In order to investigate the role of Quadruplex forming G-Rich Sequences (QGRS) in regulated RNA processing, we have created a suite of computational tools to map putative G-quadruplex elements within mammalian genes. The suite contains algorithms (11) to search genes for occurrences of the G-quadruplex motif and analyze their distribution patterns near RNA processing sites.
+        </div>
+
+        <div class="col-md-12">
+            <br>
+            <b>QGRS-Mapper:</b>
+            <div class="col-md-12">
+                <br>
+                <ul>
+                    <li>
+                        Web-based software mainly written in Perl and Java programming languages.
+                    </li>
+                    <li>
+                        Retrieves sequence information from fully annotated entries of public genomic databases (e.g. GenBank/RefSeq of NCBI).
+                    </li>
+                    <li>Searches gene sequences for occurrences of Quadruplex forming G-Rich Sequences (QGRS).</li>
+                    <li>Analyzes their distribution patterns near RNA processing sites.</li>
+                    <li>Capable of analyzing nucleotide sequences in the raw or FASTA format provided by the user.</li>
+                </ul>
+            </div>
+
+            <br>
+            <b>GRSDB:</b>
+            <div class="col-md-12">
+                <br>
+                <ul>
+                    <li>
+                        Web-accessible database for curation and further computation of the mined data.
+                    </li>
+                    <li>
+                        Built with PHP/MySQL.
+                    </li>
+                    <li>Stores and organizes the results of the analyses of QGRS-Mapper.</li>
+                    <li>Helps perform wide-scale analysis of overall occurrence and significance of G-quadruplexes, especially near RNA processing sites.
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <div class="jumbotron">
+        <div class="container-fluid">
+        <div class="col-md-12">
+            <div class="span12">
+                <blockquote>
+                   <small>1 <cite>J.T. Davis. Angew. Chem. Int. Ed., 43:668-698. 2004. </cite></small>
+                    <small>2 <cite>H. Liu, A. Matsugami, M. Katahira, and S. Uesugi. J. Mol. Biol., 322:955-970, 2002.</cite></small>
+                    <small>3 <cite>T. Simonsson. Biol. Chem., 382:621-628, 2001.</cite></small>
+                    <small>4 <cite>M. Yonaha and N.J. Proudfoot. Mol. Cell, 3: 593-600, 1999. </cite></small>
+                    <small>5 <cite>J.C. Darnell, K.B. Jensen, P. Jin, V. Brown, S.T. Warren, and R.B. Darnell. Cell, 107: 489-499, 2001.</cite></small>
+                    <small>6 <cite>S. Bonnal, C. Schaeffer, L. Creancier, S. Clamens, H. Moine, A-C. Prats, and S. Vagner. J Biol. Chem., 278:39330-39336, 2003.</cite></small>
+                    <small>7 <cite>A. Oliver, I. Bogdarina, E. Schroeder, I.A. Taylor, and G.G. Kneale. J. Molec. Biol., 301:575-584, 2000. </cite></small>
+                    <small>8 <cite>P.S. Bagga, L.C. Ford, F. Chen and J. Wilusz. Nucleic Acids Research. 23:1625-1631, 1995.</cite></small>
+                    <small>9 <cite>P.S. Bagga, G.K. Arhin, and J. Wilusz, J. Nucleic Acids Res. 26: 5343-5350, 1998.</cite></small>
+                    <small>10 <cite>G.K. Arhin, M. Boots, P.S. Bagga, C. Milcarek, and J. Wilusz. Nucleic Acids Res. 30: 1842-1850, 2002.</cite></small>
+                    <small>11 <cite>L. D�Antonio and P.S. Bagga. Computational Systems Bioinformatics, CSB 2004. Proceedings. 2004 IEEE , Pages:561-562. 2004.</cite></small>
+                    <small>12 <cite>Min, H., Chan, R.C. and Black, D.L. (1995).Genes Dev., 9: 2659-2671.</cite></small>
+                    <small>13 <cite>M.-Y. Chou, N. Rooke, C.W. Turck, and D.L Black. Mol. Cell. Biol. 19: 69-77. 1999. </cite></small>
+                    <small>14 <cite>M. Caputi, and A.M. Zahler. EMBO J. 21: 845-855, 2002.</cite></small>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+</body>
+</html>
